@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-osx-font-smoothing: grayscale;
+}
+/*0f0c0c*/
+#back {
+  background: #130606 space repeat;
+  background-image: url("/images/Roman-Helmet.svg");
+  background-size: 50px;
+}
+
+:root {
+  --blue-col: #4095ff;
+  --orange-col: #ffaa40;
+  --red-col: #f75151;
+  --bg-col: #101311;
+  --dark-col: #212422;
+  --text-col: #efefef;
+  --text-col2: #dfdfdf;
+}
+
+.abs-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 56rem;
+}
+.main-box {
+  border-radius: 16px;
+  border: dashed 2px var(--red-col);
+
+  background-color: var(--bg-col);
+  color: var(--text-col);
+  box-shadow: 0px 0px 40px 20px #000000;
+
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  min-height: 60rem;
+}
+
+.side-bar {
+  position: fixed;
+  width: 15rem;
+  height: 25rem;
+  left: -5rem;
+  bottom: 40%;
+
+  background-color: var(--bg-col);
+  border: solid 2px var(--red-col);
+  border-radius: 20px;
+  color: var(--text-col);
+}
+.side-bar div {
+  padding-left: 5.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Luxurious Roman", cursive;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h2 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 2.15rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: var(--text-col2);
+}
+.title {
+  padding-top: 3rem;
+  text-shadow: 0px 0px 4px #ffffff;
+  color: #f5f1e1;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+a {
+  color: var(--blue-col);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--orange-col);
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  color: var(--text-col2);
+}
+
+.inline-c {
+  display: inline;
+  padding: 1rem;
+}
+.inline-l {
+  display: inline;
+  position: absolute;
+  float: left;
+}
+.gif {
+  background-color: var(--dark-col);
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 2rem;
+
+  height: 200px;
+  justify-content: space-evenly;
+
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 10px;
+}
+.git a {
+  image-rendering: pixelated;
+}
+
+@media only screen and (max-width: 83rem) {
+  .title {
+    padding-top: calc(3rem - 50px);
+  }
+  .side-bar {
+    border-radius: 6px;
+    position: relative;
+    width: calc(100vw - 20px);
+    max-width: 56rem;
+    height: 50px;
+
+    z-index: 2;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .side-bar div {
+    padding-left: 0.5rem;
+  }
+}
+@media only screen and (max-width: 56.9rem) {
+  .abs-center {
+    width: calc(100vw - 16px);
+  }
+
+  .inline-l {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: inherit;
+    position: relative;
+    float: none;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gif {
+    margin: 0;
+  }
+}
+@media only screen and (max-height: 44rem) {
+  .side-bar {
+    border-radius: 6px;
+    position: relative;
+    width: calc(100vw - 20px);
+    max-width: 56rem;
+    height: 50px;
+
+    z-index: 2;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .side-bar div {
+    padding-left: 0.5rem;
+  }
+}
