@@ -59,6 +59,12 @@
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
+.sb-list li {
+  list-style-type: none;
+}
+.sb-list li * {
+  white-space: nowrap;
+}
 
 h2,
 h3,
@@ -143,6 +149,14 @@ p {
   }
   .side-bar div {
     padding-left: 0.5rem;
+  }
+  .sb-list li {
+    float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .sb-list li * {
+    display: block;
   }
 }
 @media only screen and (max-width: 56.9rem) {
