@@ -6,10 +6,10 @@ function MyApp() {
       <h2>🇦🇺 About Me 🔥</h2>
       <div className="inline-l">
         <h3>
-          <a href="blog">📜 Writings</a>
+          <a href="/blog">📜 Writings</a>
         </h3>
         <h3>
-          <a href="books">🔖 Books</a>
+          <a href="/books">🔖 Books</a>
         </h3>
         <h3>
           <a href="mailto:seththyer23@gmail.com?subject=Sent%20From%20SethThyersPage">
@@ -93,13 +93,15 @@ function MyApp() {
             height="31px"
           />
         </a>
-        <a href="http://openbooks.neocities.org">
+        <a href="https://openbooks.neocities.org">
           <Image
             src="https://openbooks.neocities.org/img/88x31.gif"
             width="88px"
             height="31px"
-            style="image-rendering:pixelated;"
           />
+        </a>
+        <a href="https://seththyer.com/">
+          <Image src="/images/web-button-gif.gif" width="88px" height="31px" />
         </a>
       </center>
     </div>
