@@ -65,7 +65,7 @@ class SideBar extends App {
         </li>
         <li>
           <h3>
-            <a href="mailto:seththyer23@gmail.com?subject=Sent%20From%20SethThyersPage">
+            <a href="mailto:main@seththyer.com?subject=Sent%20From%20SethThyersPage">
               📯 Email
             </a>
           </h3>
