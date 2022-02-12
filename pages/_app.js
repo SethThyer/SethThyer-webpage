@@ -6,11 +6,6 @@ import SideBar from "/components/side-bar.js";
 import "../index.css";
 
 class MyApp extends App {
-  componentDidMount() {
-    const { bodyClass } = this.props;
-    document.querySelector("body").classList.add(bodyClass || "back");
-  }
-
   render() {
     const { Component, pageProps } = this.props;
 
