@@ -21,7 +21,7 @@ function MyApp() {
         <p>
           C-lang Enjoyer 💾
           <br />
-          Crypto Disowner 📉
+          Bitcoin Disowner 📉
           <br />
           Music Listener 🎺
           <br />
