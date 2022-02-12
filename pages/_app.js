@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import App from "next/app";
 import Head from "next/head";
 import SideBar from "/components/side-bar.js";
@@ -7,7 +7,8 @@ import "../index.css";
 
 class MyApp extends App {
   componentDidMount() {
-    document.body.id = "back";
+    const { bodyClass } = this.props;
+    document.querySelector("body").classList.add(bodyClass || "back");
   }
 
   render() {

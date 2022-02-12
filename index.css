@@ -4,8 +4,8 @@
   -webkit-font-smoothing: antialiased;
   -webkit-osx-font-smoothing: grayscale;
 }
-/*0f0c0c*/
-#back {
+
+.back {
   background: #130606 space repeat;
   background-image: url("/images/Roman-Helmet.svg");
   background-size: 50px;
