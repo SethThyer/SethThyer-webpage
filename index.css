@@ -65,6 +65,13 @@ body {
 .sb-list li * {
   white-space: nowrap;
 }
+.splitter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 135px;
+  height: 3px;
+  background-color: var(--red-col);
+}
 
 h2,
 h3,
@@ -91,6 +98,7 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 a {
+  white-space: nowrap;
   color: var(--blue-col);
   text-decoration: none;
 }
@@ -131,7 +139,7 @@ p {
   image-rendering: pixelated;
 }
 
-@media only screen and (max-width: 83rem) {
+@media only screen and (max-height: 44rem) {
   .title {
     padding-top: calc(3rem - 50px);
   }
@@ -143,6 +151,7 @@ p {
     height: 50px;
     margin-bottom: 2rem;
     text-align: center;
+    white-space: nowrap;
 
     z-index: 2;
     align-items: center;
@@ -157,18 +166,79 @@ p {
   }
   .sb-list li {
     float: left;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  }
+  .sb-list li:not(.splitter) {
+    padding-left: 0.48rem;
+    padding-right: 0.48rem;
   }
   .sb-list li * {
     display: block;
+  }
+  .splitter {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 3px;
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 83rem) {
+  .title {
+    padding-top: calc(3rem - 50px);
+  }
+  .side-bar {
+    border-radius: 6px;
+    position: relative;
+    width: calc(100vw - 20px);
+    max-width: 56rem;
+    height: 50px;
+    margin-bottom: 2rem;
+    text-align: center;
+    white-space: nowrap;
+
+    z-index: 2;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .side-bar div {
+    padding-left: 0.5rem;
+  }
+  .sb-list {
+    display: inline-block;
+  }
+  .sb-list li {
+    float: left;
+  }
+  .sb-list li:not(.splitter) {
+    padding-left: 0.48rem;
+    padding-right: 0.48rem;
+  }
+  .sb-list li * {
+    display: block;
+  }
+  .splitter {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 3px;
+    height: 35px;
   }
 }
 @media only screen and (max-width: 56.9rem) {
   .abs-center {
     width: calc(100vw - 16px);
   }
-
+  .side-bar {
+    height: 75px;
+  }
+  .splitter {
+    margin: 0px;
+    width: 3px;
+    height: 1.5rem;
+  }
   .inline-l {
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -184,38 +254,29 @@ p {
 @media only screen and (max-width: 600px) {
   .gif {
     margin: 0;
+    grid-template-columns: 1fr 1fr;
+    height: 220px;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.65rem;
+  }
+  .title {
+    font-size: 2.5rem;
   }
 }
-@media only screen and (max-height: 44rem) {
-  .title {
-    padding-top: calc(3rem - 50px);
+@media only screen and (max-width: 230px) {
+  h3 {
+    font-size: 1rem;
   }
-  .side-bar {
-    border-radius: 6px;
-    position: relative;
-    width: calc(100vw - 20px);
-    max-width: 56rem;
-    height: 50px;
-    margin-bottom: 2rem;
-    text-align: center;
-
-    z-index: 2;
-    align-items: center;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
-  .side-bar div {
-    padding-left: 0.5rem;
-  }
-  .sb-list {
-    display: inline-block;
-  }
-  .sb-list li {
-    float: left;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .sb-list li * {
-    display: block;
+  .gif {
+    grid-template-columns: 1fr;
+    height: 500px;
   }
 }

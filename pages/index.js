@@ -27,7 +27,7 @@ function MyApp() {
           <br />
           Div Centerer 😎
           <br />
-          Linux User 💻
+          Linux Avid 💻
         </p>
       </center>
       <h2>⛵ Where I Reside ⚓</h2>
