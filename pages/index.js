@@ -31,37 +31,43 @@ function MyApp() {
         </p>
       </center>
       <h2>⛵ Where I Reside ⚓</h2>
-      <center>
-        <h3 className="inline-c">
-          <a target="_blank" href="https://github.com/SethThyer">
-            <Image src="/images/git-icon.svg" width="25rem" height="25rem" />
-            &nbsp;Github
-          </a>
-        </h3>
-        <h3 className="inline-c">
-          <a target="_blank" href="https://twitter.com/Seth06098372">
-            <Image
-              src="/images/twitter-icon.svg"
-              width="25rem"
-              height="25rem"
-            />
-            &nbsp;Twitter
-          </a>
-        </h3>
-        <h3 className="inline-c">
-          <a
-            target="_blank"
-            href="https://open.spotify.com/user/qwr2j3sfc6quajm51dtz54sde?si=c91e27cd71b4497a&nd=1"
-          >
-            <Image
-              src="/images/spotify-icon.svg"
-              width="25rem"
-              height="25rem"
-            />
-            &nbsp;Spotify
-          </a>
-        </h3>
-      </center>
+      <ul className="list-def">
+        <li>
+          <h3 className="inline-c">
+            <a target="_blank" href="https://github.com/SethThyer">
+              <Image src="/images/git-icon.svg" width="25rem" height="25rem" />
+              &nbsp;Github
+            </a>
+          </h3>
+        </li>
+        <li>
+          <h3 className="inline-c">
+            <a target="_blank" href="https://twitter.com/Seth06098372">
+              <Image
+                src="/images/twitter-icon.svg"
+                width="25rem"
+                height="25rem"
+              />
+              &nbsp;Twitter
+            </a>
+          </h3>
+        </li>
+        <li>
+          <h3 className="inline-c">
+            <a
+              target="_blank"
+              href="https://open.spotify.com/user/qwr2j3sfc6quajm51dtz54sde?si=c91e27cd71b4497a&nd=1"
+            >
+              <Image
+                src="/images/spotify-icon.svg"
+                width="25rem"
+                height="25rem"
+              />
+              &nbsp;Spotify
+            </a>
+          </h3>
+        </li>
+      </ul>
       <h2>🌐 Some Cool Sites 📰</h2>
       <center className="gif">
         <a target="_blank" href="https://larbs.xyz">

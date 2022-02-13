@@ -73,6 +73,15 @@ body {
   background-color: var(--red-col);
 }
 
+.list-def {
+  text-align: center;
+}
+.list-def li {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 1rem;
+}
+
 h2,
 h3,
 h4 {
@@ -110,10 +119,6 @@ p {
   color: var(--text-col2);
 }
 
-.inline-c {
-  display: inline;
-  padding: 1rem;
-}
 .inline-l {
   display: inline;
   position: absolute;
