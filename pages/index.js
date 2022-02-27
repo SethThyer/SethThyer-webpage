@@ -97,7 +97,7 @@ function MyApp() {
         <a target="_blank" href="https://search.melonking.net/">
           <Image
             alt="Daniel's Network"
-            src="https://search.melonking.net/images/badges/network.gif"
+            src="/images/dansnetwork.gif"
             width="88px"
             height="31px"
           />
