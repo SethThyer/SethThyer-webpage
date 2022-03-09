@@ -95,7 +95,7 @@ h5 {
   font-family: "Luxurious Roman", cursive;
   margin-left: -14px;
   font-size: 1.5rem;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 h2,
 h3,
@@ -139,9 +139,11 @@ p {
   color: var(--text-col2);
 }
 .para {
+  text-indent: 5%;
   text-align: left;
   max-width: 580px;
   padding: 20px;
+  padding-bottom: 10px;
 }
 .sub {
   font-size: 1rem;
