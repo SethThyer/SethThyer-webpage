@@ -21,6 +21,30 @@ body {
   --text-col2: #dfdfdf;
   --cream-col: #fffde5;
 }
+/*** Works on common browsers ***/
+::selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+::-ms-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
 
 .abs-center {
   position: absolute;
@@ -125,6 +149,13 @@ h2 {
   font-size: 4rem;
   text-align: center;
   font-family: "Playfair Display", serif;
+}
+.entry-img {
+  border: solid 2px var(--red-col);
+  border-radius: 10px;
+  min-width: 75px;
+  max-width: 600px;
+  width: 85vw;
 }
 a {
   white-space: nowrap;
