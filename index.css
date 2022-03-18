@@ -19,6 +19,7 @@ body {
   --dark-col: #212422;
   --text-col: #efefef;
   --text-col2: #dfdfdf;
+  --text-col3: #ffffff;
   --cream-col: #fffde5;
 }
 /*** Works on common browsers ***/
@@ -93,7 +94,7 @@ body {
 .splitter {
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 135px;
+  width: 8rem;
   height: 3px;
   background-color: var(--red-col);
 }
@@ -117,7 +118,7 @@ h6 {
 h5 {
   color: var(--cream-col);
   font-family: "Luxurious Roman", cursive;
-  margin-left: -14px;
+  margin-left: -0.87rem;
   font-size: 1.5rem;
   padding-top: 4rem;
 }
@@ -154,7 +155,7 @@ h2 {
   border: solid 2px var(--red-col);
   border-radius: 10px;
   min-width: 75px;
-  max-width: 600px;
+  max-width: 52rem;
   width: 85vw;
 }
 a {
@@ -168,6 +169,10 @@ a:hover {
 p {
   font-family: "Roboto Mono", monospace;
   color: var(--text-col2);
+}
+strong {
+  font-style: bold;
+  color: var(--text-col3);
 }
 .para {
   text-indent: 5%;
@@ -217,7 +222,7 @@ p {
     position: relative;
     width: calc(100vw - 20px);
     max-width: 56rem;
-    height: 50px;
+    height: 3rem;
     margin-bottom: 2rem;
     text-align: center;
     white-space: nowrap;
@@ -261,7 +266,7 @@ p {
     position: relative;
     width: calc(100vw - 20px);
     max-width: 56rem;
-    height: 50px;
+    height: 3rem;
     margin-bottom: 2rem;
     text-align: center;
     white-space: nowrap;
@@ -301,7 +306,7 @@ p {
     width: calc(100vw - 16px);
   }
   .side-bar {
-    height: 75px;
+    height: 5rem;
   }
   .splitter {
     margin: 0px;
