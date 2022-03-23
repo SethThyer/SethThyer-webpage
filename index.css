@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #130606 space repeat;
+  background: #130606 repeat;
   background-image: url("/images/Roman-Helmet.svg");
   background-size: 50px;
 }
@@ -46,6 +46,23 @@ body {
   background-color: #352e7e;
   color: #fff;
 }
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 50px;
+}
+::-webkit-scrollbar-track {
+  background: #020101;
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
 
 .abs-center {
   position: absolute;
@@ -78,6 +95,7 @@ body {
   border: solid 2px var(--red-col);
   border-radius: 20px;
   color: var(--text-col);
+  overflow: hidden;
 }
 .side-bar div {
   padding-left: 5.5rem;
@@ -183,6 +201,10 @@ strong {
 }
 .sub {
   font-size: 1rem;
+}
+item {
+  color: var(--orange-col);
+  font-family: "Roboto Mono", monospace;
 }
 
 .wrap {
