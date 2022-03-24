@@ -82,6 +82,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 5rem;
   min-height: 60rem;
+  overflow: hidden;
 }
 
 .side-bar {
@@ -353,6 +354,9 @@ item {
     grid-template-columns: 1fr 1fr;
     height: 220px;
   }
+  h6 {
+    font-size: 1.9rem;
+  }
   h3 {
     font-size: 1.25rem;
   }
@@ -361,7 +365,14 @@ item {
     font-size: 1.5rem;
   }
   p {
-    font-size: 0.65rem;
+    font-size: 1rem;
+  }
+  item {
+    font-size: 1rem;
+  }
+  .para {
+    padding-left: 0;
+    padding-right: 0;
   }
   .title {
     font-size: 2.5rem;
