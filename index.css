@@ -226,6 +226,10 @@ strong {
 .sub {
   font-size: 1rem;
 }
+item {
+  color: var(--orange-col);
+  font-family: "Roboto Mono", monospace;
+}
 
 .wrap {
   white-space: normal;
@@ -404,8 +408,15 @@ strong {
     padding-top: 2rem;
     font-size: 1.5rem;
   }
+  item {
+    font-size: 1rem;
+  }
   p {
-    font-size: 0.65rem;
+    font-size: 1rem;
+  }
+  .para {
+    padding-left: 0;
+    padding-right: 0;
   }
   .title {
     font-size: 2.5rem;
