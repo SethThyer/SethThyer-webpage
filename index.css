@@ -82,10 +82,12 @@ body {
   margin-top: 2rem;
   margin-bottom: 5rem;
   min-height: 60rem;
+  min-height: 60rem;
   overflow: hidden;
 }
 
 .side-bar {
+  overflow: hidden;
   position: fixed;
   width: 15rem;
   height: 25rem;
@@ -96,7 +98,6 @@ body {
   border: solid 2px var(--red-col);
   border-radius: 20px;
   color: var(--text-col);
-  overflow: hidden;
 }
 .side-bar div {
   padding-left: 5.5rem;
@@ -116,6 +117,14 @@ body {
   width: 8rem;
   height: 3px;
   background-color: var(--red-col);
+}
+.ico {
+  font-size: 1.5rem;
+  display: inline;
+}
+.svg-ico {
+  height: 1.5rem;
+  width: auto;
 }
 
 .list-def {
@@ -174,10 +183,24 @@ h2 {
   border: solid 2px var(--red-col);
   border-radius: 10px;
   min-width: 75px;
-  max-width: 40rem;
+  max-width: 42rem;
   width: 85vw;
 }
+.entry-index {
+  transition: 80ms;
+  color: var(--orange-col);
+  background-color: rgba(225, 225, 225, 0.1);
+  border-radius: 7px;
+  padding: 4px;
+  max-width: 40rem;
+  margin-top: 20px;
+}
+.entry-index:hover {
+  color: var(--blue-col);
+  background-color: rgba(225, 225, 225, 0.2);
+}
 a {
+  display: inline;
   white-space: nowrap;
   color: var(--blue-col);
   text-decoration: none;
@@ -202,10 +225,6 @@ strong {
 }
 .sub {
   font-size: 1rem;
-}
-item {
-  color: var(--orange-col);
-  font-family: "Roboto Mono", monospace;
 }
 
 .wrap {
@@ -258,6 +277,10 @@ item {
   .side-bar div {
     padding-left: 0.5rem;
   }
+  .sb-list li h3 {
+    font-size: 1rem;
+    display: block;
+  }
   .sb-list {
     display: inline-block;
   }
@@ -265,19 +288,27 @@ item {
     float: left;
   }
   .sb-list li:not(.splitter) {
-    padding-left: 0.48rem;
-    padding-right: 0.48rem;
+    padding-left: 0.58rem;
+    padding-right: 0.58rem;
   }
-  .sb-list li * {
-    display: block;
+  .sb-list li h3 * {
+    display: inline;
   }
   .splitter {
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 0.48rem;
+    margin-right: 0.48rem;
     width: 3px;
     height: 35px;
+  }
+  .ico {
+    font-size: 1.25rem;
+    display: inline;
+  }
+  .svg-ico {
+    height: 1.25rem;
+    width: auto;
   }
 }
 @media only screen and (max-width: 83rem) {
@@ -302,6 +333,10 @@ item {
   .side-bar div {
     padding-left: 0.5rem;
   }
+  .sb-list li h3 {
+    font-size: 1rem;
+    display: block;
+  }
   .sb-list {
     display: inline-block;
   }
@@ -309,19 +344,27 @@ item {
     float: left;
   }
   .sb-list li:not(.splitter) {
-    padding-left: 0.48rem;
-    padding-right: 0.48rem;
+    padding-left: 0.58rem;
+    padding-right: 0.58rem;
   }
-  .sb-list li * {
-    display: block;
+  .sb-list li h3 * {
+    display: inline;
   }
   .splitter {
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 0.48rem;
+    margin-right: 0.48rem;
     width: 3px;
     height: 35px;
+  }
+  .ico {
+    font-size: 1.25rem;
+    display: inline;
+  }
+  .svg-ico {
+    height: 1.25rem;
+    width: auto;
   }
 }
 @media only screen and (max-width: 56.9rem) {
@@ -354,9 +397,6 @@ item {
     grid-template-columns: 1fr 1fr;
     height: 220px;
   }
-  h6 {
-    font-size: 1.9rem;
-  }
   h3 {
     font-size: 1.25rem;
   }
@@ -365,25 +405,26 @@ item {
     font-size: 1.5rem;
   }
   p {
-    font-size: 1rem;
-  }
-  item {
-    font-size: 1rem;
-  }
-  .para {
-    padding-left: 0;
-    padding-right: 0;
+    font-size: 0.65rem;
   }
   .title {
     font-size: 2.5rem;
   }
 }
-@media only screen and (max-width: 230px) {
+@media only screen and (max-width: 240px) {
   h3 {
     font-size: 1rem;
   }
   .gif {
     grid-template-columns: 1fr;
     height: 500px;
+  }
+  .ico {
+    font-size: 0.75rem;
+    display: inline;
+  }
+  .svg-ico {
+    height: 0.75rem;
+    width: auto;
   }
 }

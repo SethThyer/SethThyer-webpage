@@ -18,15 +18,27 @@ export async function getServerSideProps() {
 function BlogHome(props) {
   const body = () => {
     let ret = "";
-    props.files.forEach(function (file) {
+    function sortOrder(a, b) {
+      if (
+        a.date.split("/")[0] +
+          a.date.split("/")[1] * 100 +
+          a.date.split("/")[2] >
+        b.date.split("/")[0] + b.date.split("/")[1] * 100 + b.date.split("/")[2]
+      ) {
+        return a > b;
+      } else return b > a;
+    }
+    let sortedFiles = props.files.sort(sortOrder);
+
+    sortedFiles.forEach(function (file) {
       ret =
         ret +
-        `<center>
-          <h4>
-            <a href='${file.link}' class='wrap'>${file.title}</a>
+        `<a href='${file.link}' class='wrap'><center><div class="entry-index">
+          <h4 >
+            ${file.title}
           </h4>
           <p class='para sub'>${file.date} <br/> ${file.descript}</p>
-        </center> <br/>`;
+        </div></center></a><br/>`;
     });
     return ret;
   };
