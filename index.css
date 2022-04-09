@@ -223,6 +223,12 @@ strong {
   padding: 20px;
   padding-bottom: 10px;
 }
+.code {
+  background-color: var(--dark-col);
+  border-radius: 5px;
+  border: solid 1px var(--bg-col);
+  color: green;
+}
 .sub {
   font-size: 1rem;
 }
