@@ -2,7 +2,7 @@ export default function Books() {
   return (
     <div>
       <center>
-        <h6>My Media Recommendations</h6>
+        <h6>A Safe Haven for Good Media</h6>
       </center>
       <h5>- Some of my favourite and most helpful media</h5>
       <h5>Books</h5>

@@ -30,7 +30,7 @@ class SideBar extends App {
           <li>
             <h3>
               <a href="/blog">
-                <span className="ico">📜 </span>Writings
+                <span className="ico">📜 </span>Blog
               </a>
             </h3>
           </li>

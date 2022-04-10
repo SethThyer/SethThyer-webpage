@@ -18,17 +18,20 @@ export async function getServerSideProps() {
 function BlogHome(props) {
   const body = () => {
     let ret = "";
+
     function sortOrder(a, b) {
-      if (
-        a.date.split("/")[0] +
-          a.date.split("/")[1] * 100 +
-          a.date.split("/")[2] >
-        b.date.split("/")[0] + b.date.split("/")[1] * 100 + b.date.split("/")[2]
-      ) {
-        return a > b;
-      } else return b > a;
+      let vala = a.date.split("/")[0] +
+        a.date.split("/")[1] * 100 +
+        a.date.split("/")[2];
+      let valb = b.date.split("/")[0] + 
+        b.date.split("/")[1] * 100 + 
+        b.date.split("/")[2];
+
+      if (vala < valb) {
+        return 1;
+      } else return -1;
     }
-    let sortedFiles = props.files.sort(sortOrder);
+    let sortedFiles = props.files.slice(0).sort(sortOrder);
 
     sortedFiles.forEach(function (file) {
       ret =
