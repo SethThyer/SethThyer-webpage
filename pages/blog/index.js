@@ -26,7 +26,6 @@ function BlogHome(props) {
       let valb = Number(b.date.split("/")[0]) + 
         Number(b.date.split("/")[1]) * 100 + 
         Number(b.date.split("/")[2]);
-      console.log(a.title + " " + vala + "   " + b.title + " " + valb)
 
       if (vala < valb) {
         return 1;
