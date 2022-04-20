@@ -20,14 +20,15 @@ function BlogHome(props) {
     let ret = "";
 
     function sortOrder(a, b) {
-      let vala = a.date.split("/")[0] +
-        a.date.split("/")[1] * 100 +
-        a.date.split("/")[2];
-      let valb = b.date.split("/")[0] + 
-        b.date.split("/")[1] * 100 + 
-        b.date.split("/")[2];
+      let vala = Number(a.date.split("/")[0]) +
+        Number(a.date.split("/")[1]) * 100 +
+        Number(a.date.split("/")[2]);
+      let valb = Number(b.date.split("/")[0]) + 
+        Number(b.date.split("/")[1]) * 100 + 
+        Number(b.date.split("/")[2]);
+      console.log(a.title + " " + vala + "   " + b.title + " " + valb)
 
-      if (vala < valb) {
+      if (vala > valb) {
         return 1;
       } else return -1;
     }
