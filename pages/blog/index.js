@@ -28,7 +28,7 @@ function BlogHome(props) {
         Number(b.date.split("/")[2]);
       console.log(a.title + " " + vala + "   " + b.title + " " + valb)
 
-      if (vala > valb) {
+      if (vala < valb) {
         return 1;
       } else return -1;
     }
