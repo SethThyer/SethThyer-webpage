@@ -15,13 +15,15 @@ export default function Books() {
         <br />
         <item>The Republic -Plato</item>
         <br />
+        <item>The Basic Works of Aristotle -Aristotle</item>
+        <br />
         <item>Fear and Trembling -Soren Kierkegaard</item>
         <br />
         <item>The Myth of the Rational Voter -Bryan Caplan</item>
         <br />
         <item>1984 -George Orwell</item>
         <br />
-        <item>Maps of Meaning -Jordan B. Peterson</item>
+        <item>Maps of Meaning -Jordan Peterson</item>
         <br />
         <item>Metamorphosis -Franz Kafka</item>
         <br />
@@ -54,7 +56,7 @@ export default function Books() {
         <item>The Book of Shaders -Patricio Gonzalez Vivo, Jen Lowe</item>
         <br />
         <item>
-          Advanced Binary for Programming & Computer Science -Sunil Tanna
+          Modern C -Jens Gustedt
         </item>
       </ul>
       <h5>Websites</h5>
