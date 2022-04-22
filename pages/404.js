@@ -2,8 +2,7 @@ export default function PageNotFound() {
   return (
     <div>
       <h2>
-        Directory either does not exist or was not found; most likely the
-        former.
+        Directory does not exist
       </h2>
       <br />
       <h3>(Page Status: 404)</h3>

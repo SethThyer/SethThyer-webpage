@@ -1,4 +1,5 @@
 const fs = require("fs");
+import Image from "next/image";
 
 export async function getServerSideProps() {
   let fileInfo = [];
@@ -46,7 +47,12 @@ function BlogHome(props) {
     return ret;
   };
 
-  return <div dangerouslySetInnerHTML={{ __html: body() }}></div>;
+  return( 
+    <>
+      <a href="/blog/rss"><Image src="/images/rss.svg" width="25rem" height="25rem" /></a>
+      <div dangerouslySetInnerHTML={{ __html: body() }}></div>
+    </>
+  );
 }
 
 export default BlogHome;

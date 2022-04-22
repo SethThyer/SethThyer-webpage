@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Articles from SethThyer]]></title>
+        <description><![CDATA[Updates on articles uploaded to seththyer.com]]></description>
+        <link>http://github.com/dylang/node-rss</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 22 Apr 2022 02:57:19 GMT</lastBuildDate>
+        <author><![CDATA[Seth S.Thyer]]></author>
+        <item>
+            <title><![CDATA[Best Search Engine]]></title>
+            <description><![CDATA[DuckDuckGo is gone. Now what?]]></description>
+            <guid isPermaLink="false">Best Search Engine</guid>
+            <dc:creator><![CDATA[Seth S.Thyer]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Music Radio with MPD]]></title>
+            <description><![CDATA[A tutorial on how to play music accross the internet so you can tune in anywhere or play music throughout your house.]]></description>
+            <guid isPermaLink="false">Music Radio with MPD</guid>
+            <dc:creator><![CDATA[Seth S.Thyer]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[A Functioning Democracy]]></title>
+            <description><![CDATA[On the current state of Western democracy]]></description>
+            <guid isPermaLink="false">A Functioning Democracy</guid>
+            <dc:creator><![CDATA[Seth S.Thyer]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Computer Money]]></title>
+            <description><![CDATA[On present state crypto currency and its many weaknesses.]]></description>
+            <guid isPermaLink="false">Computer Money</guid>
+            <dc:creator><![CDATA[Seth S.Thyer]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Propaganda Machine]]></title>
+            <description><![CDATA[Technology]]></description>
+            <guid isPermaLink="false">The Propaganda Machine</guid>
+            <dc:creator><![CDATA[Seth S.Thyer]]></dc:creator>
+        </item>
+    </channel>
+</rss>
