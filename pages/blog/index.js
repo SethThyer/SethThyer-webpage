@@ -49,7 +49,7 @@ function BlogHome(props) {
 
   return( 
     <>
-      <a href="/blog/rss"><Image src="/images/rss.svg" width="25rem" height="25rem" /></a>
+      <a href="/feed.xml"><Image src="/images/rss.svg" width="25rem" height="25rem" /></a>
       <div dangerouslySetInnerHTML={{ __html: body() }}></div>
     </>
   );
