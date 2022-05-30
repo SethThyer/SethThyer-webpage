@@ -4,7 +4,7 @@ export default function Books() {
       <center>
         <h6>My Media Recommendations</h6>
       </center>
-      <h5>- Some of my favourite and most helpful media</h5>
+      <h5>- Some of my favourite media</h5>
       <h5>Books</h5>
       <ul>
         <item>Industrial Society and Its Future -Theodore J. Kaczynski</item>
