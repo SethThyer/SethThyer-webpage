@@ -2,11 +2,13 @@ export default function Books() {
   return (
     <div>
       <center>
-        <h6>A Safe Haven for Good Media</h6>
+        <h6>My Media Recommendations</h6>
       </center>
-      <h5>- Some of my favourite and most helpful media</h5>
+      <h5>- Some of my favourite media</h5>
       <h5>Books</h5>
       <ul>
+        <item>Industrial Society and Its Future -Theodore J. Kaczynski</item>
+        <br />
         <item>Thus Spoke Zarathustra -Friedrich Nietzsche</item>
         <br />
         <item>Beyond Good And Evil -Friedrich Nietzsche</item>
@@ -15,23 +17,21 @@ export default function Books() {
         <br />
         <item>The Republic -Plato</item>
         <br />
-        <item>The Basic Works of Aristotle -Aristotle</item>
-        <br />
         <item>Fear and Trembling -Soren Kierkegaard</item>
         <br />
         <item>The Myth of the Rational Voter -Bryan Caplan</item>
         <br />
         <item>1984 -George Orwell</item>
         <br />
-        <item>Maps of Meaning -Jordan Peterson</item>
+        <item>Maps of Meaning -Jordan B. Peterson</item>
         <br />
         <item>Metamorphosis -Franz Kafka</item>
         <br />
         <item>The Old Man and the Sea -Ernest Hemingway</item>
         <br />
-        <item>Crime and Punishment -Dostoevsky</item>
+        <item>Crime and Punishment -Fyodor Dostoevsky</item>
         <br />
-        <item>The Idiot -Dostoevsky</item>
+        <item>The Idiot -Fyodor Dostoevsky</item>
         <br />
         <item>Against Method -Paul Feyerabend</item>
         <br />
@@ -56,7 +56,7 @@ export default function Books() {
         <item>The Book of Shaders -Patricio Gonzalez Vivo, Jen Lowe</item>
         <br />
         <item>
-          Modern C -Jens Gustedt
+          Advanced Binary for Programming & Computer Science -Sunil Tanna
         </item>
       </ul>
       <h5>Websites</h5>
@@ -69,12 +69,6 @@ export default function Books() {
       <item>
         <a target="_blank" href="https://slashdot.org/">
           SlashDot
-        </a>
-      </item>
-      <br />
-      <item>
-        <a target="_blank" href="https://www.louderwithcrowder.com/">
-          Louder With Crowder
         </a>
       </item>
       <br />
@@ -110,12 +104,6 @@ export default function Books() {
 
       <h5>Audio & Video</h5>
       <item>
-        <a target="_blank" href="https://banned.video/">
-          Banned dot Video
-        </a>
-      </item>
-      <br />
-      <item>
         <a target="_blank" href="https://notrelated.xyz/">
           Not Related Podcast
         </a>
@@ -130,6 +118,18 @@ export default function Books() {
       <item>
         <a target="_blank" href="https://odysee.com/">
           Odysee
+        </a>
+      </item>
+      <br />
+      <item>
+        <a target="_blank" href="https://banned.video/">
+          Banned dot Video
+        </a>
+      </item>
+      <br />
+      <item>
+        <a target="_blank" href="https://cozy.tv/">
+          Cozy TV
         </a>
       </item>
     </div>
