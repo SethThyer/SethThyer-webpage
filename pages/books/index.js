@@ -73,12 +73,6 @@ export default function Books() {
       </item>
       <br />
       <item>
-        <a target="_blank" href="https://cozy.tv/">
-          Cozy TV
-        </a>
-      </item>
-      <br />
-      <item>
         <a target="_blank" href="https://handmade-seattle.com/">
           Handmade Seattle
         </a>
@@ -110,12 +104,6 @@ export default function Books() {
 
       <h5>Audio & Video</h5>
       <item>
-        <a target="_blank" href="https://banned.video/">
-          Banned dot Video
-        </a>
-      </item>
-      <br />
-      <item>
         <a target="_blank" href="https://notrelated.xyz/">
           Not Related Podcast
         </a>
@@ -130,6 +118,18 @@ export default function Books() {
       <item>
         <a target="_blank" href="https://odysee.com/">
           Odysee
+        </a>
+      </item>
+      <br />
+      <item>
+        <a target="_blank" href="https://banned.video/">
+          Banned dot Video
+        </a>
+      </item>
+      <br />
+      <item>
+        <a target="_blank" href="https://cozy.tv/">
+          Cozy TV
         </a>
       </item>
     </div>
