@@ -7,6 +7,8 @@ export default function Books() {
       <h5>- Some of my favourite and most helpful media</h5>
       <h5>Books</h5>
       <ul>
+        <item>Industrial Society and Its Future -Theodore J. Kaczynski</item>
+        <br />
         <item>Thus Spoke Zarathustra -Friedrich Nietzsche</item>
         <br />
         <item>Beyond Good And Evil -Friedrich Nietzsche</item>
@@ -27,9 +29,9 @@ export default function Books() {
         <br />
         <item>The Old Man and the Sea -Ernest Hemingway</item>
         <br />
-        <item>Crime and Punishment -Dostoevsky</item>
+        <item>Crime and Punishment -Fyodor Dostoevsky</item>
         <br />
-        <item>The Idiot -Dostoevsky</item>
+        <item>The Idiot -Fyodor Dostoevsky</item>
         <br />
         <item>Against Method -Paul Feyerabend</item>
         <br />
@@ -71,8 +73,8 @@ export default function Books() {
       </item>
       <br />
       <item>
-        <a target="_blank" href="https://www.louderwithcrowder.com/">
-          Louder With Crowder
+        <a target="_blank" href="https://cozy.tv/">
+          Cozy TV
         </a>
       </item>
       <br />
