@@ -9,6 +9,10 @@ export default function Books() {
       <ul>
         <item>Industrial Society and Its Future -Theodore J. Kaczynski</item>
         <br />
+        <item>The Basic Works of Aristotle -Aristotle</item>
+        <br />
+        <item>Hopping over the Rabbit Hole -Anthony Scaramucci</item>
+        <br />
         <item>Thus Spoke Zarathustra -Friedrich Nietzsche</item>
         <br />
         <item>Beyond Good And Evil -Friedrich Nietzsche</item>
@@ -23,7 +27,7 @@ export default function Books() {
         <br />
         <item>1984 -George Orwell</item>
         <br />
-        <item>Maps of Meaning -Jordan B. Peterson</item>
+        <item>Think Big -Donald J. Trump</item>
         <br />
         <item>Metamorphosis -Franz Kafka</item>
         <br />
